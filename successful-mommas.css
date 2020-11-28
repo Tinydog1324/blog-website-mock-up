@@ -1,0 +1,134 @@
+* {
+    margin: 0;
+    box-sizing: border-box;
+    font-family: 'Roboto Slab', serif;
+ }
+ 
+ /* LOGO */
+ .logo {
+     display: block;
+    margin: 0 auto;
+     width: 45%;
+     
+ }
+ /* NAVIGATION BAR */
+ .nav {
+   display: flex;
+   justify-content: center;
+   align-items: center;
+   
+ }
+ 
+ @media only screen and (max-width: 600px) {
+   .nav {
+       font-size: 0.5em;
+       padding: 0;
+   }
+ }
+ 
+ .nav p {
+   padding: 20px;
+   cursor: pointer;
+   color: #FE007D;
+   opacity: 0.7;
+   transition: transform 50ms ease-out;
+   text-decoration: none;
+ 
+   
+ }
+ 
+ 
+ a {
+   text-decoration: none;
+   color: grey;
+ }
+ 
+ 
+ .nav p:hover {
+   opacity: 1;
+   transform: scale(1.2);
+   
+ }
+
+ /* OUR MISSION CSS*/
+
+ .header-sus {
+    background-color: black;
+    text-align: center;
+    font-size: 50px;
+    padding: 30px;
+    color:white;
+
+  }
+
+.wins {
+  text-align: center;
+  padding: 100px;
+  line-height: 30px;
+ letter-spacing: 0.0625em;
+  margin: 0 auto;
+  width: 70%;
+}
+
+.wins h2 {
+  padding: 20px;
+}
+
+
+.img-name {
+display: flex;
+  flex-direction: column-reverse;
+  
+  
+}
+
+.image-set {
+  text-align: center;
+  padding: 30px;
+}
+
+
+img {
+  width: 100px;
+  height: 100px;
+  
+}
+
+
+
+
+ 
+ /*END OF OUR MISSION CSS*/
+
+ .icons {
+    text-align: center;
+    color: #00BEFD;
+    padding: 40px;
+    background-color: black;
+  }
+
+  .fab {
+      padding: 20px;
+      font-size: 25px;
+      cursor: pointer;
+  }
+
+  .fab:hover {
+    opacity: 1;
+      transform: scale(1.2);
+      color: #FE007D;
+  }
+
+ .icons p {
+    font-size: 10px;
+    padding: 15px;
+    
+  }
+  
+  .icons i {
+    padding: 10px;
+  }
+  
+  .color {
+    background-color: black;
+  }

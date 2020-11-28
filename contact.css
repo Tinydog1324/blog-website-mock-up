@@ -1,0 +1,159 @@
+  
+
+* {
+    margin: 0;
+    box-sizing: border-box;
+    font-family: 'Roboto Slab', serif;
+  }
+  
+  /* LOGO */
+.logo {
+    display: block;
+   margin: 0 auto;
+    width: 50%;
+    
+}
+/* NAVIGATION BAR */
+.nav {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+  }
+  
+  @media only screen and (max-width: 600px) {
+    .nav {
+        font-size: 0.5em;
+        padding: 0;
+    }
+}
+  
+  .nav p {
+    padding: 20px;
+    cursor: pointer;
+    color: #FE007D;
+    opacity: 0.7;
+    transition: transform 50ms ease-out;
+    text-decoration: none;
+
+    
+  }
+
+ 
+  a {
+    text-decoration: none;
+    color: grey;
+}
+ 
+
+  .nav p:hover {
+    opacity: 1;
+    transform: scale(1.2);
+    
+  }
+ 
+ 
+#style-h2 {
+    text-align: center;
+  }
+  
+  #style {
+    width: 30%;
+  margin: 0 auto;
+    padding-top: 125px;
+  }
+  
+  
+  
+  form {
+    border: 2px solid #f1f1f1;
+    font-family: Arial;
+    padding-top: 100px;
+    
+   
+  }
+  
+  .container {
+    padding: 20px;
+    background-color: #f1f1f1;
+    text-align: center;
+    
+    
+  }
+  
+  input[type=text], input[type=submit], input[type=email], input[type=number], #comments  {
+    width: 50%;
+    padding: 12px;
+    margin: 8px 25%;
+    display: inline-block;
+    border: 1px solid #ccc;
+    box-sizing: border-box;
+    
+   
+  }
+  
+  input[type=checkbox] {
+    margin-top: 35px;
+    
+      
+  }
+  
+  input[type=submit] {
+    background-color: #4CAF50;
+    color: white;
+    border: none;
+    cursor: pointer;
+    margin-bottom: 100px;
+    
+  } 
+  
+  input[type=submit]:hover {
+    opacity: 0.8;
+  
+  }
+  
+  .font-size h2 {
+      background-color: black;
+      text-align: center;
+      font-size: 50px;
+      padding: 30px;
+      color: white;
+   }
+    
+    
+   icons p {
+    font-size: 10px;
+    padding: 15px;
+    
+    
+  }
+  
+  .icons i {
+    padding: 10px;
+  
+  }
+  
+  .color {
+    background-color: black;
+    
+  
+  }
+
+  .icons {
+    text-align: center;
+    color: #00BEFD;
+    padding: 40px;
+    background-color: black;
+  }
+
+  .fab {
+      padding: 20px;
+      font-size: 25px;
+      cursor: pointer;
+  }
+
+  .fab:hover {
+    opacity: 1;
+      transform: scale(1.2);
+      color: #FE007D;
+  }

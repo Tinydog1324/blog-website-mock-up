@@ -1,0 +1,171 @@
+* {
+    margin: 0;
+    box-sizing: border-box;
+    font-family: 'Roboto Slab', serif;
+ }
+ 
+ /* LOGO */
+ .logo {
+     display: block;
+    margin: 0 auto;
+     width: 45%;
+     
+ }
+ /* NAVIGATION BAR */
+ .nav {
+   display: flex;
+   justify-content: center;
+   align-items: center;
+   
+ }
+ 
+ @media only screen and (max-width: 600px) {
+   .nav {
+       font-size: 0.5em;
+       padding: 0;
+   }
+ }
+ 
+ .nav p {
+   padding: 20px;
+   cursor: pointer;
+   color: #FE007D;
+   opacity: 0.7;
+   transition: transform 50ms ease-out;
+   text-decoration: none;
+ 
+   
+ }
+ 
+ 
+ a {
+   text-decoration: none;
+   color: grey;
+ }
+ 
+ 
+ .nav p:hover {
+   opacity: 1;
+   transform: scale(1.2);
+   
+ }
+
+ /* OUR MISSION CSS*/
+
+
+ .our-mission {
+    position: absolute;
+     left: 60%;
+    top: 40%;
+    width: 40%;
+    height: 30%;
+    z-index: 1;
+  }
+
+  .relative {
+      position: relative;
+  }
+
+  @media only screen and (max-width: 600px) {
+    .heading-size {
+        font-size: 2px;
+    }
+  }
+  
+  .heading-size {
+    font-size: 50px;
+  }
+  
+
+  
+  .ourmission-pic {
+    background-image: url("https://blog.timesunion.com/parenting/files/2012/03/Fotolia_5331131_Subscription_L.jpg");
+    background-color: #cccccc;
+    height: 500px;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: relative;
+    opacity: 1;
+  }
+  
+  .ourmission-body {
+     padding: 20px;
+      background-color: #f1f1f1;
+      text-align: center;
+      overflow: hidden;
+ 
+  }
+  
+  .style-font {
+    width: 58%;
+    margin: 0 auto;
+    padding-top: 125px;
+    padding-right: 100px;
+    float: right;
+    line-height: 2;
+    letter-spacing: .5px;
+    overflow: scroll;
+  
+    
+    
+  }
+  
+ 
+  
+  img {
+    width: 50%;
+    margin:0 auto;
+    display: block;
+  }
+  
+  
+  
+  @media only screen and (max-width: 600px) {
+    .img {
+        width: 58%;
+        
+    }
+  }
+  
+  
+  
+
+
+
+ 
+ /*END OF OUR MISSION CSS*/
+
+ .icons {
+    text-align: center;
+    color: #00BEFD;
+    padding: 40px;
+    background-color: black;
+  }
+
+  .fab {
+      padding: 20px;
+      font-size: 25px;
+      cursor: pointer;
+  }
+
+  .fab:hover {
+    opacity: 1;
+      transform: scale(1.2);
+      color: #FE007D;
+  }
+
+ .icons p {
+    font-size: 10px;
+    padding: 15px;
+    
+  }
+  
+  .icons i {
+    padding: 10px;
+  }
+  
+  .color {
+    background-color: black;
+    
+  }
